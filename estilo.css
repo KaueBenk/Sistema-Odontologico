@@ -1,0 +1,9 @@
+#loginMsg {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    border-color: #dc3545;
+    border-radius: 4px;
+  }
