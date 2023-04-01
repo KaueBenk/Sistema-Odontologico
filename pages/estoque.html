@@ -1,38 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estoque</title>
-    <link rel="icon" type="image/x-icon" href="./img/icon.jpg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Takeshi Odonto Clinics | Estoque</title>
+  <link rel="stylesheet" href="/css/estoque.css">
 </head>
 <body>
-    <header class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Estoque</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link" href="./agenda.html">Agenda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./estoque.html">Estoque</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./login.html">Sair</a>
-              </li>
-            </ul>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="/index.html">Takeshi Odonto Clinics</a>
+      <ul class="nav-list" style="list-style: none;">
+        <li><a href="/pages/agenda.html">Agenda</a></li>
+        <li><a href="/pages/pag5.html">Pag5</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container-main">
+
+      <div class="container">
+        <h1 class="title">Gerenciamento de Estoque</h1>
+
+        <div class="box-info">
+          <div style="background: linear-gradient(45deg, #ff5370, #ff869a);" class="box-info-sigle">
+            <div class="info-text">
+              <h3>Valor em Estoque</h3>
+              <p>R$ 98.758</p>
+            </div>
+          </div>
+
+
+          <div style="background: linear-gradient(45deg, #3847ce, #8886ff);" class="box-info-sigle">
+            <div class="info-text">
+              <h3>Quantidade de Estoque</h3>
+              <p>3.758 Unidades</p>
+            </div>
+          </div>
+
+          <div style="background: linear-gradient(45deg, #44bd5e, #86ff90);" class="box-info-sigle">
+            <div class="info-text">
+              <h3>Produto em Falta</h3>
+              <p>Fotopolimerizador</p>
+            </div>
+          </div>
+
+          <div style="background: linear-gradient(45deg, #d38f36, #ffc06e);" class="box-info-sigle">
+            <div class="info-text">
+              <h3>Entrega dos Fornecedores</h3>
+              <p>06/04/2023 às 14:00</p>
+            </div>
           </div>
         </div>
-      </header>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
+        <div class="feed">
+          <div class="feed-single">
+            <h3>Pasta de Dente</h3>
+            <div class="feed-text"></div>
+            <span>15 minutos atrás</span>
+          </div>
+
+          <div class="feed-single">
+            <h3>Cadeira Odontológica</h3>
+            <div class="feed-text"></div>
+            <span>8 horas atrás</span>
+          </div>
+
+          <div class="feed-single">
+            <h3>Compressor Odontológico</h3>
+            <div class="feed-text"></div>
+            <span>8 horas atrás</span>
+          </div>
+
+          <div class="feed-single">
+            <h3>Jato de Bicarbonato</h3>
+            <div class="feed-text"></div>
+            <span>1 dia atrás</span>
+          </div>
+
+          <div class="feed-single">
+            <h3>Pedal de Comando</h3>
+            <div class="feed-text"></div>
+            <span>2 dias atrás</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-input">
+
+        <div class="title-cadastro">
+          <h1>Cadastro de Estoque</h1>
+        </div>
+
+        <div class="inputs">
+          <div class="product-name">
+            <h4>Código do Produto</h4>
+          </div>
+          <input type="text" placeholder="Código do Produto">
+        </div>
+
+        <div class="inputs">
+          <div class="product-name">
+            <h4>Nome do Produto</h4>
+          </div>
+          <input type="text" placeholder="Nome do Produto">
+        </div>
+
+        <div class="inputs">
+          <div class="product-name">
+            <h4>Preço do Produto</h4>
+          </div>
+          <input type="number" placeholder="Preço do Produto">
+        </div>
+
+        <div class="button">
+          <a href="#">Cadastrar</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container-links">
+      <div class="direitos">
+        <p>© 2023 - Todos os direitos reservados</p>
+      </div>
+
+      <div class="links">
+        <ul style="list-style: none;">
+          <li>
+            <a href="#">Política de Privacidade</a>
+          </li>
+          <li>|</li>
+          <li>
+            <a href="#">Termos de Uso</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
