@@ -13,6 +13,60 @@
     />
   </head>
   <body>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalLogin"
+      tabindex="-1"
+      aria-labelledby="modalLoginTitulo"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLoginTitulo">
+              Entre na sua conta
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Senha</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Entrar na Conta
+              </button>
+              <p class="form-text mb-0">
+                Esqueceu a senha? <a href="#">Clique aqui</a>.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <header
         class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
@@ -26,15 +80,14 @@
         </a>
 
         <ul class="nav nav-pills">
-          <li>
-            <button
-              type="button"
-              class="btn btn-primary"
+          <li class="nav-item btn btn-primary">
+            <a
+              href="#"
+              class="text-decoration-none text-reset"
               data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
+              data-bs-target="#modalLogin"
+              >Entrar</a
             >
-              Entrar
-            </button>
           </li>
         </ul>
       </header>
