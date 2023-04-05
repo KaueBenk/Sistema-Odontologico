@@ -137,12 +137,15 @@ li {
     text-align: center;
 }
 
-.button a {
+button {
     background: linear-gradient(45deg, #be1e1e, #ff6e6e);
     padding: 10px;
     margin-bottom: 20px;
     display: inline-block;
     border-radius: 10px;
+    color: #fff;
+    border: 1px solid #be1e1e;
+    cursor: pointer;
 }
 
 .container-links {

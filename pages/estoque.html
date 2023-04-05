@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Takeshi Odonto Clinics | Estoque</title>
+  <script src="/js/estoque.js"></script>
   <link rel="stylesheet" href="/css/estoque.css">
 </head>
 <body>
@@ -13,7 +14,7 @@
       <a class="logo" href="/index.html">Takeshi Odonto Clinics</a>
       <ul class="nav-list" style="list-style: none;">
         <li><a href="/pages/agenda.html">Agenda</a></li>
-        <li><a href="/pages/pag5.html">Pag5</a></li>
+        <li><a href="/pages/controle_financeiro.html">Controle Financeiro</a></li>
       </ul>
     </nav>
   </header>
@@ -98,25 +99,25 @@
           <div class="product-name">
             <h4>Código do Produto</h4>
           </div>
-          <input type="text" placeholder="Código do Produto">
+          <input id="inputCodigo" type="text" placeholder="Código do Produto">
         </div>
 
         <div class="inputs">
           <div class="product-name">
             <h4>Nome do Produto</h4>
           </div>
-          <input type="text" placeholder="Nome do Produto">
+          <input id="inputProduto" type="text" placeholder="Nome do Produto">
         </div>
 
         <div class="inputs">
           <div class="product-name">
             <h4>Preço do Produto</h4>
           </div>
-          <input type="number" placeholder="Preço do Produto">
+          <input id="inputPreco" type="number" placeholder="Preço do Produto">
         </div>
 
         <div class="button">
-          <a href="#">Cadastrar</a>
+          <button onclick="cadastrar()">Cadastrar</button>
         </div>
       </div>
 
