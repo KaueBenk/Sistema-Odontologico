@@ -1,4 +1,4 @@
-package edu.fatec.mavenproject1;
+package edu.fatec.sistemaodontologico;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

@@ -1,4 +1,4 @@
-package edu.fatec.mavenproject1.resources;
+package edu.fatec.sistemaodontologico.resources;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
