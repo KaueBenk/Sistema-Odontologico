@@ -1,3 +1,10 @@
+<%-- 
+    Document   : index
+    Created on : 21 de mai de 2023, 17:10:43
+    Author     : kauebenk
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -203,3 +210,4 @@
     ></script>
   </body>
 </html>
+
