@@ -1,2 +1,5 @@
-/home/kauebenk/NetBeansProjects/SistemaOdontologico/src/main/java/edu/fatec/mavenproject1/JakartaRestConfiguration.java
-/home/kauebenk/NetBeansProjects/SistemaOdontologico/src/main/java/edu/fatec/mavenproject1/resources/JakartaEE8Resource.java
+/home/kauebenk/NetBeansProjects/SistemaOdontologico/src/main/java/edu/fatec/sistemaodontologico/JakartaRestConfiguration.java
+/home/kauebenk/NetBeansProjects/SistemaOdontologico/src/main/java/edu/fatec/sistemaodontologico/Conexao.java
+/home/kauebenk/NetBeansProjects/SistemaOdontologico/src/main/java/edu/fatec/sistemaodontologico/Paciente.java
+/home/kauebenk/NetBeansProjects/SistemaOdontologico/src/main/java/edu/fatec/sistemaodontologico/resources/JakartaEE8Resource.java
+/home/kauebenk/NetBeansProjects/SistemaOdontologico/src/main/java/edu/fatec/sistemaodontologico/PacienteDAO.java
