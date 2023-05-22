@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
-    <!-- Define Persistence Unit -->
-    <persistence-unit name="my_persistence_unit">
-        
-    </persistence-unit>
+<persistence version="2.2" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <!-- Define Persistence Unit -->
+  <persistence-unit name="my_persistence_unit">
+    <class>edu.fatec.sistemaodontologico.Paciente</class>
+  </persistence-unit>
+  <persistence-unit name="SistemaOdontologicoPU" transaction-type="RESOURCE_LOCAL">      
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://awseb-e-q6xcbgb4m8-stack-awsebrdsdatabase-oa9wtkh6wkdr.cw4lqqowvhgc.us-east-1.rds.amazonaws.com:3306/sistema_odontologico?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value='kauebenk'/>
+      <property name="javax.persistence.jdbc.driver" value="software.aws.rds.jdbc.mysql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value='He79ZFX4WUUrmP'/>
+      <!-- Yes, I am aware of this issue. After extensive searching, I have not been 
+      able to find a way to pass environment variables within tag parameters in XML.-->
+    </properties>
+  </persistence-unit>
 </persistence>
